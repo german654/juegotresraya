@@ -1,0 +1,843 @@
+{
+  "name": "juego",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "jp8D6XJmEvOtbmJy19GUPB",
+    "node": "5:331",
+    "version": "6659508512",
+    "component-id": "2fb060bdf591c463fd0af0f531883b7c494b3453"
+  },
+  "default": "Juego",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Fila1"
+      },
+      {
+        "type": "group",
+        "id": "Fila2"
+      },
+      {
+        "type": "group",
+        "id": "Fila3"
+      },
+      {
+        "type": "group",
+        "id": "Group 1"
+      },
+      {
+        "type": "group",
+        "id": "Group 2"
+      },
+      {
+        "type": "group",
+        "id": "Group 3"
+      },
+      {
+        "type": "group",
+        "id": "Frame 10"
+      },
+      {
+        "type": "text",
+        "id": "O"
+      },
+      {
+        "type": "group",
+        "id": "Frame 11"
+      },
+      {
+        "type": "text",
+        "id": "x"
+      },
+      {
+        "type": "group",
+        "id": "Frame 12"
+      },
+      {
+        "type": "text",
+        "id": "O1"
+      },
+      {
+        "type": "group",
+        "id": "Group 4"
+      },
+      {
+        "type": "group",
+        "id": "Group 5"
+      },
+      {
+        "type": "group",
+        "id": "Frame 13"
+      },
+      {
+        "type": "group",
+        "id": "Frame 14"
+      },
+      {
+        "type": "text",
+        "id": "x1"
+      },
+      {
+        "type": "group",
+        "id": "Frame 15"
+      },
+      {
+        "type": "text",
+        "id": "O2"
+      },
+      {
+        "type": "text",
+        "id": "x2"
+      },
+      {
+        "type": "group",
+        "id": "Group 6"
+      },
+      {
+        "type": "group",
+        "id": "Group 7"
+      },
+      {
+        "type": "group",
+        "id": "Group 8"
+      },
+      {
+        "type": "group",
+        "id": "Frame 16"
+      },
+      {
+        "type": "text",
+        "id": "O3"
+      },
+      {
+        "type": "group",
+        "id": "Frame 17"
+      },
+      {
+        "type": "text",
+        "id": "x3"
+      },
+      {
+        "type": "group",
+        "id": "Frame 18"
+      },
+      {
+        "type": "text",
+        "id": "O4"
+      }
+    ],
+    "modes": {
+      "Juego": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": 28.0,
+              "top": 22.0,
+              "right": 28.0,
+              "bottom": 22.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Fila1",
+              "Fila2",
+              "Fila3"
+            ],
+            "item-spacing": 20.0,
+            "background-color": "$Juego background color"
+          },
+          {
+            "id": "Fila1",
+            "padding": {
+              "left": 10.0,
+              "right": 10.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Group 1",
+              "Group 2",
+              "Group 3"
+            ],
+            "item-spacing": 20.0
+          },
+          {
+            "id": "Fila2",
+            "padding": {
+              "left": 10.0,
+              "right": 10.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Group 4",
+              "Group 5",
+              "Frame 13"
+            ],
+            "item-spacing": 20.0
+          },
+          {
+            "id": "Fila3",
+            "padding": {
+              "left": 10.0,
+              "right": 10.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Group 6",
+              "Group 7",
+              "Group 8"
+            ],
+            "item-spacing": 20.0
+          },
+          {
+            "id": "Group 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Frame 10"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Frame 11"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 3",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Frame 12"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Frame 10",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "O"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 205.28301886792454,
+              "saturation": 0.9754601226993865,
+              "value": 0.6392156862745098
+            }
+          },
+          {
+            "id": "O",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.5
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -0.5
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "O",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 100.0,
+            "line-height": 1.210227279663086,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Frame 11",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "x"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 205.28301886792454,
+              "saturation": 0.9754601226993865,
+              "value": 0.6392156862745098
+            }
+          },
+          {
+            "id": "x",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -6.5
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 355.3846153846154,
+              "saturation": 0.5561497326203209,
+              "value": 0.7333333333333333
+            },
+            "text-content": "x",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 105.0,
+            "line-height": 1.2102272396995908,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Frame 12",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "O1"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 205.28301886792454,
+              "saturation": 0.9754601226993865,
+              "value": 0.6392156862745098
+            }
+          },
+          {
+            "id": "O1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.5
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -0.5
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "O",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 100.0,
+            "line-height": 1.210227279663086,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Group 4",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Frame 14"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 5",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Frame 15"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Frame 13",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "x2"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 205.28301886792454,
+              "saturation": 0.9754601226993865,
+              "value": 0.6392156862745098
+            }
+          },
+          {
+            "id": "Frame 14",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "x1"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 205.28301886792454,
+              "saturation": 0.9754601226993865,
+              "value": 0.6392156862745098
+            }
+          },
+          {
+            "id": "x1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -6.5
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 355.3846153846154,
+              "saturation": 0.5561497326203209,
+              "value": 0.7333333333333333
+            },
+            "text-content": "x",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 105.0,
+            "line-height": 1.2102272396995908,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Frame 15",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "O2"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 205.28301886792454,
+              "saturation": 0.9754601226993865,
+              "value": 0.6392156862745098
+            }
+          },
+          {
+            "id": "O2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.5
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -0.5
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "O",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 100.0,
+            "line-height": 1.210227279663086,
+            "typeface": "Inter"
+          },
+          {
+            "id": "x2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -6.5
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 355.3846153846154,
+              "saturation": 0.5561497326203209,
+              "value": 0.7333333333333333
+            },
+            "text-content": "x",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 105.0,
+            "line-height": 1.2102272396995908,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Group 6",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Frame 16"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 7",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Frame 17"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Group 8",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Frame 18"
+            ],
+            "clip-content": false
+          },
+          {
+            "id": "Frame 16",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "O3"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 205.28301886792454,
+              "saturation": 0.9754601226993865,
+              "value": 0.6392156862745098
+            }
+          },
+          {
+            "id": "O3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.5
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -0.5
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "O",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 100.0,
+            "line-height": 1.210227279663086,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Frame 17",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "x3"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 205.28301886792454,
+              "saturation": 0.9754601226993865,
+              "value": 0.6392156862745098
+            }
+          },
+          {
+            "id": "x3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -6.5
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 355.3846153846154,
+              "saturation": 0.5561497326203209,
+              "value": 0.7333333333333333
+            },
+            "text-content": "x",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 105.0,
+            "line-height": 1.2102272396995908,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Frame 18",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 100.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "O4"
+            ],
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 205.28301886792454,
+              "saturation": 0.9754601226993865,
+              "value": 0.6392156862745098
+            }
+          },
+          {
+            "id": "O4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.5
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -0.5
+              }
+            },
+            "font-weight": 500.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "O",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 100.0,
+            "line-height": 1.210227279663086,
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "Juego background color": {
+      "data-type": "color",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Juego",
+      "size": {
+        "width": 430.0,
+        "height": 384.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
